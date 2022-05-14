@@ -19,9 +19,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.3.2",
+    "eslint": "^8.15.0",
     "gatsby-plugin-postcss": "^4.12.0",
     "postcss": "^8.3.6",
-    "prettier": "2.3.2",
+    "prettier": "^2.6.2",
     "tailwindcss": "^2.2.7"
   },
   "keywords": [
@@ -32,15 +33,14 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "yarn dev",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/itzcull/gatsby-tailwind-template"
+    "url": "https://github.com/itzcull/gatsby-tailwindcss-boilerplate"
   }
 }
