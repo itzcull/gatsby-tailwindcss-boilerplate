@@ -1,8 +1,7 @@
 import React from "react"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header className="w-full mb-5 bg-gray-800">
-    {siteTitle}
   </header>
 )
 
